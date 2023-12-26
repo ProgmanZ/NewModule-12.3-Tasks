@@ -55,7 +55,6 @@ class CargoShip(Ship):
 
 
 cargos = CargoShip("Грузовоз", True)
-
 print(cargos)
 cargos.ship_loading(23)
 cargos.set_activities(False)
